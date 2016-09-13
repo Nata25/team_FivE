@@ -90,6 +90,7 @@ a.custom-link:hover {
 }
 
 figcaption {
+    margin-top: 20px;
     text-align: center;
     color: #3EA3FF;
     font-size: 1.5em;
