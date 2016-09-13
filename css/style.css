@@ -9,26 +9,29 @@ body {
 }
 
 header {
+    background-color: #FFB78B;
     text-align: center;
 }
 
 h1 {
+    display: inline-block;
     font-family: fantasy;
     font-size: 2.5em;
 }
 
 h2 {
+    display: inline-block;
     margin: 30px;
     font-size: 1em;
 }
 
 h3 {
+    font-size: .8em;
     margin: 10px;
 }
 
 .logo {
-    padding: 50px;
-    background-color: #FFB78B;
+    padding: 20px;
 }
 
 .wrapper {
@@ -37,7 +40,7 @@ h3 {
 
 .flex-container {
     display: flex;
-    align-items: center;
+    align-items: top;
     flex-flow: row wrap;
     justify-content: center;
 }
@@ -52,6 +55,11 @@ h3 {
     border: 1px solid #FF8F00;
     border-radius: 5px;
     text-align: center;
+}
+
+.inside > .person {
+    display: inline-block;
+    /*width: 200px;*/
 }
 
 a {
