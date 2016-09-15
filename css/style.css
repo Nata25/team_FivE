@@ -189,7 +189,6 @@ footer a {
 
 /* PRODUCT */
 
-
 .wrapper > h2 {
     display: block;
     margin: 20px auto;
@@ -243,4 +242,8 @@ section.flex-container > * {
 .description figcaption {
     font-size: .8em;
     color: white;
+}
+
+.icons {
+    margin: 30px;
 }
