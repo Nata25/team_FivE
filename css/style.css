@@ -55,9 +55,9 @@ h4 {
 
 .flex-container {
     display: flex;
-    align-items: top;
     flex-flow: row wrap;
     justify-content: center;
+    padding-bottom: 30px;
 }
 
 .flex-item {
@@ -123,11 +123,6 @@ figcaption a {
     border-radius: 50%;
 }
 
-.img-rounded {
-    width: 700px;
-    /*border-radius: 10px;*/
-}
-
 .centered {
     display: block;
     margin: 50px auto;
@@ -150,26 +145,19 @@ footer {
     text-align: left;
 }
 
-footer h2 {
-    display: inline-block;
-    width: 170px;
-    vertical-align: top;
+footer {
+    padding: 20px;
 }
 
 footer ul {
-    display: inline-block;
-    margin-top: 30px;
     list-style-type: none;
 }
 
-footer ul li {
-    line-height: .3em;
-}
-
 footer a {
+    margin: 5px;
     display: block;
-    margin: .5em 1.9em 2em;
     color: #A6ABB5;
+    font-size: .7em;
     text-decoration: underline;
 }
 
@@ -197,4 +185,62 @@ footer a {
         .flex-item-main {
             order: 7;
         }
+}
+
+/* PRODUCT */
+
+
+.wrapper > h2 {
+    display: block;
+    margin: 20px auto;
+    color: #FF8D00;
+    font-variant: small-caps;
+    font-size: 2.5em;
+}
+
+.tags {
+    width: 900px;
+}
+
+.motivator {
+    margin: 20px 10px 20px;
+    padding: 25px;
+    font-size: 1.1em;
+    line-height: 28px;
+}
+
+div.motivator::first-letter {
+    font-size: 1.5em;
+    color: #FF4800;
+}
+
+.slogan {
+    margin: 20px auto;
+    width: 70%;
+    color: #4F91D8;
+}
+
+.emphasis {
+    color: #FF4800;
+    font-size: 2em;
+    line-height: 2.2em;
+}
+
+.description {
+    background-color: #96A2B5;
+    padding: 30px;
+}
+
+section.flex-container {
+    align-items: center;
+    text-align: center;
+}
+
+section.flex-container > * {
+    margin: 30px;
+}
+
+.description figcaption {
+    font-size: .8em;
+    color: white;
 }
