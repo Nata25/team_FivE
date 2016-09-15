@@ -22,19 +22,27 @@ h1 {
 h1::before {
     content: "/ FrontEnd / ";
     font-size: .5em;
-
-
 }
 
 h2 {
     display: inline-block;
     margin: 30px;
     font-size: 1em;
+    text-align: center;
 }
 
 h3 {
     font-size: .8em;
     margin: 10px;
+}
+
+h4,
+figcaption {
+    color: #3EA3FF;
+}
+
+h4 {
+    margin: 20px;
 }
 
 .logo {
@@ -53,7 +61,7 @@ h3 {
 }
 
 .flex-item {
-    flex: 0 1 300px;
+    flex: 0 1 250px;
 }
 
 .person {
@@ -64,9 +72,12 @@ h3 {
     text-align: center;
 }
 
+.inside {
+    text-align: center;
+}
+
 .inside > .person {
     display: inline-block;
-    /*width: 200px;*/
 }
 
 a {
@@ -99,17 +110,22 @@ a.custom-link:hover {
 figcaption {
     margin-top: 20px;
     text-align: center;
-    color: #3EA3FF;
     font-size: 1.5em;
 }
 
+figcaption a {
+    color: #9F4CDC;
+    text-decoration: underline;
+}
+
 .img-circle {
-    width: 200px;
-    border-radius: 100px;
+    width: 150px;
+    border-radius: 50%;
 }
 
 .img-rounded {
-    border-radius: 50px;
+    width: 700px;
+    /*border-radius: 10px;*/
 }
 
 .centered {
