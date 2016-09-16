@@ -89,7 +89,8 @@ a.custom-link {
     display: block;
     margin-top: 30px;
     border: 1px solid #9BC7EF;
-    background-color: #9BC7EF;
+    background-color: ##ff4800;
+    font-size: 25px;
     padding: 10px;
 }
 
@@ -206,6 +207,7 @@ footer a {
     padding: 25px;
     font-size: 1.1em;
     line-height: 28px;
+    border: 2px solid #af4948;
 }
 
 div.motivator::first-letter {
